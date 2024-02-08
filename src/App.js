@@ -6,7 +6,6 @@ import Today from './pages/Today'
 import Developer from './pages/Developer'
 import Webd from './pages/Webd'
 import Website from './pages/Website'
-import Gsap from './pages/Gsap'
 import Port from './pages/Port'
 import Youtube from './pages/Youtube'
 import Channel from './pages/Channel'
@@ -31,7 +30,6 @@ const App = () => {
             <Route path='/developer' element = {<Developer/>}/>
             <Route path='/webd' element = {<Webd/>}/>
             <Route path='/website' element = {<Website/>}/>
-            <Route path='/gsap' element = {<Gsap/>}/>
             <Route path='/port' element = {<Port/>}/>
             <Route path='/youtube' element = {<Youtube/>}/>
             <Route path='/channel/"channelID' element = {<Channel/>}/>
