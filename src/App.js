@@ -14,24 +14,33 @@ import Video from './pages/Video'
 import Search from './pages/Search'
 import Not from './pages/Not'
 
+import Header from './section/Header'
+import Main from './section/Main'
+import Footer from './section/Footer'
+
 const App = () => {
   return (
     //가상의 주소를 사용
     <BrowserRouter>
-      <Routes>
-          <Route path='/' element = {<Home/>}/>
-          <Route path='/today' element = {<Today/>}/>
-          <Route path='/developer' element = {<Developer/>}/>
-          <Route path='/webd' element = {<Webd/>}/>
-          <Route path='/website' element = {<Website/>}/>
-          <Route path='/gsap' element = {<Gsap/>}/>
-          <Route path='/port' element = {<Port/>}/>
-          <Route path='/youtube' element = {<Youtube/>}/>
-          <Route path='/channel/"channelID' element = {<Channel/>}/>
-          <Route path='/video/"videoID' element = {<Video/>}/>
-          <Route path='/search/"searchID' element = {<Search/>}/>
-          <Route path='/*' element = {<Not/>}/>
-      </Routes>
+      <Header/>
+      <Main>
+      
+        <Routes>
+            <Route path='/' element = {<Home/>}/>
+            <Route path='/today' element = {<Today/>}/>
+            <Route path='/developer' element = {<Developer/>}/>
+            <Route path='/webd' element = {<Webd/>}/>
+            <Route path='/website' element = {<Website/>}/>
+            <Route path='/gsap' element = {<Gsap/>}/>
+            <Route path='/port' element = {<Port/>}/>
+            <Route path='/youtube' element = {<Youtube/>}/>
+            <Route path='/channel/"channelID' element = {<Channel/>}/>
+            <Route path='/video/"videoID' element = {<Video/>}/>
+            <Route path='/search/"searchID' element = {<Search/>}/>
+            <Route path='/*' element = {<Not/>}/>
+        </Routes>
+      </Main> 
+      <Footer />
     </BrowserRouter>
   )
 }
