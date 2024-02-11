@@ -38,11 +38,6 @@ export const headerMenus = [
         src: "/website"
     },
     {
-        title: "GSAP Parallax",
-        icon: <CiCoffeeCup />,
-        src: "/gsap"
-    },
-    {
         title: "포트폴리오 사이트",
         icon: <CiDumbbell />,
         src: "/port"
