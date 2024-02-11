@@ -13,9 +13,9 @@ import Video from './pages/Video'
 import Search from './pages/Search'
 import Not from './pages/Not'
 
-import Header from './section/Header'
-import Main from './section/Main'
-import Footer from './section/Footer'
+import Header from './components/section/Header'
+import Main from './components/section/Main'
+import Footer from './components/section/Footer'
 
 const App = () => {
   return (
@@ -40,7 +40,7 @@ const App = () => {
       </Main> 
       <Footer />
     </BrowserRouter>
-  )
+  );
 }
 
 export default App
